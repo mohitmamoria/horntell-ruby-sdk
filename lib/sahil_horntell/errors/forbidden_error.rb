@@ -1,4 +1,4 @@
 module SahilHorntell
-  class ForbiddenError < HorntellError
+  class ForbiddenError < InvalidRequestError
   end
 end

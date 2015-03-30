@@ -1,4 +1,4 @@
 module SahilHorntell
-  class NotFoundError < HorntellError
+  class NotFoundError < InvalidRequestError
   end
 end
